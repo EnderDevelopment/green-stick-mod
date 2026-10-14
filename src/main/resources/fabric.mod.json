@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "greenstickmod",
+  "version": "1.0.0",
+  "name": "GreenStickMod",
+  "description": "A Minecraft mod that adds a green stick item with special properties.",
+  "authors": [
+    "Kidbengalamiguel477"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kidbengalamiguel477.greenstickmod.GreenStickMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
